@@ -1,29 +1,41 @@
 
-# LAB - Class xx
-## Project: Project Name Here
-### Author: Student/Group Name
+# LAB - Class 27
+
+## Project: Django Models
+
+### Author: Johnny Backus
 
 ### Links and Resources
-- [Back-end Server URL] # Fill in when applicable
-- [Front-end Application URL] # Fill in when applicable
+
+- [CodeFellows Python Lab Instructions](https://codefellows.github.io/code-401-python-guide/reference/submission-instructions/labs/)
+- [CodeFellows README template](https://codefellows.github.io/code-401-python-guide/reference/submission-instructions/labs/README-template.html)
+- lecture demo code used for reference
 
 ### Setup
-- Create a `.env` file with the following requirements:
-  - PORT - Port Number
-  - DATABASE_URL - URL to the running Postgres instance/db
+
+*.env requirements: n/a*
 
 ### How to Initialize/Run Your Application
-- Example: `python main.py`
+
+- Install requirements.txt
+- enter CLI command "python manage.py runserver"
+- view content in local port indicated by terminal
 
 ### How to Use Your Library
-- Provide instructions here if applicable
+
+- n/a
 
 ### Tests
-#### How to Run Tests
-- Describe how to run tests
+
+- Run tests with CLI command "python manage.py test"
 
 #### Tests of Note
-- Any noteworthy information about the tests
+
+**In accordance with Lab Instructions:**
+
+- Tests for home and about urls: status code 200
+- Tests for home and about url template use, including ancestor template.
 
 #### Incomplete Tests
-- Describe any tests that were not completed or skipped
+
+- n/a

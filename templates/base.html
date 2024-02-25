@@ -13,12 +13,13 @@
 </head>
 <body class="bg-green-50">
     <div class="container mx-auto mt-4">
-        <header class="bg-orange-300 px-4 py-6">
-            <h1>"Site running..."</h1>
-            <nav>
+        <header class="bg-orange-300">
+            <h1 class="text-3xl px-4 py-6">"Snickity Snacks"</h1>
+            <nav class="flex space-y-4 align-bottom">
                 <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="snack/<int:pk>/">Snacks</a></li>
+                    <li><a class="underline" href="/">Home</a></li>
+                    <!-- <li><a href="snack/">Snacks</a></li> -->
+                    <!-- <li><a href="snack/<int:pk>/">Snacks</a></li> -->
                 </ul>
             </nav>
         </header>
@@ -26,7 +27,7 @@
             {% block content %}
             {% endblock content %}
         </main>
-        <footer>
+        <footer class="bg-orange-300">
             <p>&copy; 2024</p>
         </footer>
     </div>
