@@ -33,8 +33,8 @@
 
 **In accordance with Lab Instructions:**
 
-- Tests for home and about urls: status code 200
-- Tests for home and about url template use, including ancestor template.
+- Test for snack_list url: status code 200,
+- Test for base and snack_list url template use, including ancestor template.
 
 #### Incomplete Tests
 
